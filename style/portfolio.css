@@ -127,6 +127,10 @@ main {
     margin: 0 auto;
 }
 
+main section {
+    margin-top: 130px;
+}
+
 /* about section design */
 .about {
     padding: 130px;
@@ -161,18 +165,69 @@ main {
     line-height: 30px;
     margin-top: 0;
 }
+
 /* skills related design */
-#whit-i-do-desc{
+#whit-i-do-desc {
     padding: 30px 150px;
 }
-.skills-container{
+
+.skills-container {
     display: flex;
-}
-.skill{
-    padding: 30px;
-    box-shadow: #474747;
     gap: 24px;
 }
-.skill-desc{
+
+.skill {
+    padding: 30px;
+    box-shadow: #474747;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+
+}
+
+.skill-desc {
     text-align: justify;
 }
+
+/* resume section design */
+.resume-column-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+
+}
+
+.section-title {
+    margin-bottom: 100px;
+}
+
+.resume-container {
+    display: flex;
+}
+
+
+.resume-item-desc {
+    color: #757575;
+    max-width: 450px;
+}
+#resume-container1{
+    margin-right: 150px;
+}
+
+.resume-item-title {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.resume-item-institute{
+    margin-top: 0px;
+    margin-bottom: 30px;
+    color: #757575;
+}
+.resume-container hr{
+    margin: 30px;
+}
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
